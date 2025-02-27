@@ -10,11 +10,11 @@ public class Demo4 {
     public static void isPrime(int num) {
         boolean flag = true;
 
-            for (int i = 2; i < num; i++) {
-                if (num % i == 0) {
-                    flag = false;
-                }
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                flag = false;
             }
+        }
         if (flag == true) {
             System.out.println(num);
         }

@@ -6,12 +6,12 @@ public class Student {
     private int age;
     private double chinese_score;
     private double math_score;
+
     //如何暴露：使用public修饰的get方法和set方法合理暴露
     public void setAge(int age) {
-        if (age>0&&age<150) {
+        if (age > 0 && age < 150) {
             this.age = age;
-        }
-        else {
+        } else {
             System.out.println("年龄不合法");
         }
     }
@@ -38,9 +38,10 @@ public class Student {
 
     //公开方法
     public void printAllScore() {
-        System.out.println(name+"总成绩="+(chinese_score+math_score));
+        System.out.println(name + "总成绩=" + (chinese_score + math_score));
     }
+
     public void printAvgScore() {
-        System.out.println(name+"平均成绩="+(chinese_score+math_score)/2);
+        System.out.println(name + "平均成绩=" + (chinese_score + math_score) / 2);
     }
 }

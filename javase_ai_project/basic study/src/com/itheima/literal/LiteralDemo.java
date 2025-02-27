@@ -7,10 +7,11 @@ public class LiteralDemo {
     public static void main(String[] args) {
         printLiteral();
     }
-    public static void printLiteral(){
+
+    public static void printLiteral() {
         //直接输出常见的字面量
         //字符串字面量：双引号
-        System.out.println("hello world")  ;
+        System.out.println("hello world");
         //整数字面量：无符号整数
         System.out.println(123);
         //浮点数字面量：无符号浮点数

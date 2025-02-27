@@ -1,4 +1,5 @@
 package com.itheima.extends1demo;
+
 // 父类
 //继承的好处：1.代码重用 2.代码维护性高
 public class People {

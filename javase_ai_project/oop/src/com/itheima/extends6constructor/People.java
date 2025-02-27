@@ -1,4 +1,5 @@
 package com.itheima.extends6constructor;
+
 // 父类
 //继承的好处：1.代码重用 2.代码维护性高
 public class People {
@@ -10,7 +11,8 @@ public class People {
         this.sex = sex;
     }
 
-    public People() {}
+    public People() {
+    }
 
     public String getName() {
         return name;

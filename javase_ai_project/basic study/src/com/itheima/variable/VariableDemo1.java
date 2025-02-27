@@ -5,6 +5,7 @@ public class VariableDemo1 {
         //目标：认识变量
         printLiteral();
     }
+
     public static void printLiteral() {
         //定义变量：数据类型 变量名 = 数据值;
         int age = 18;
@@ -13,7 +14,7 @@ public class VariableDemo1 {
         double score = 99.9;
         System.out.println(score);
         //定义一个字符变量
-        char ch='A';
-        System.out.println((char)(ch+32));
+        char ch = 'A';
+        System.out.println((char) (ch + 32));
     }
 }

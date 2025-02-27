@@ -1,6 +1,6 @@
 package com.itheima.extends1demo;
 
-public class Consultant extends People{
+public class Consultant extends People {
     private int num;
 
     public int getNum() {

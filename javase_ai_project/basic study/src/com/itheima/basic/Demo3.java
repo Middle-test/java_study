@@ -7,7 +7,7 @@ public class Demo3 {
     }
 
     public static void test1(int length) {
-        String code ="";
+        String code = "";
         for (int i = 0; i < length; i++) {
             int type = (int) (Math.random() * 3);
             switch (type) {

@@ -12,7 +12,7 @@ public class Student {
     }
 
     //提供有参数构造器（可选）
-    public Student(String name,double chinese,double math){
+    public Student(String name, double chinese, double math) {
         this.name = name;
         this.chinese = chinese;
         this.math = math;

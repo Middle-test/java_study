@@ -1,12 +1,13 @@
 package com.itheima.staticmethod;
 
-public class VerifyCodeUtil {
+public final class VerifyCodeUtil {
     //工具类没有创建对象的必要性，所以把构造器私有化
-    private VerifyCodeUtil(){}
+    private VerifyCodeUtil() {
+    }
 
     //静态方法定义工具类
     public static String getCode(int length) {
-        String code ="";
+        String code = "";
         for (int i = 0; i < length; i++) {
             int type = (int) (Math.random() * 3);
             switch (type) {
